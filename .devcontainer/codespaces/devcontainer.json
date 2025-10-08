@@ -1,17 +1,19 @@
 {
-	"name": "codespaces-CEIDG",
-	"dockerComposeFile": [ "docker-compose.yml" ],
-	"service": "codespaces-CEIDG",
+	"name": "codespaces-ceidg",
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+	"service": "codespaces-ceidg",
 	"workspaceFolder": "/workspace",
 	"features": {
-    "ghcr.io/devcontainers/features/java:1": {
-      "version": "21",
-      "installMaven": "true",
-      "installGradle": "false",
+		"ghcr.io/devcontainers/features/java:1": {
+			"version": "21",
+			"installMaven": "true",
+			"installGradle": "false",
 			"MAVENVERSION": "3.9.6"
-    }
-  },
-  "customizations": {
+		}
+	},
+	"customizations": {
 		"codespaces": {
 			"openFiles": [
 				"AGENTS.md"
@@ -22,26 +24,26 @@
 			"pivotal.vscode-spring-boot",
 			"redhat.vscode-yaml",
 			"vmware.vscode-boot-dev-pack"
-		],        
-    "vscode": {
-      "extensions": [
-        "vscjava.vscode-java-pack",
-        "pivotal.vscode-spring-boot",
-        "redhat.vscode-yaml",
-		"vmware.vscode-boot-dev-pack",
-        "openai.chatgpt",
-		"GitHub.copilot-chat",
-		"GitHub.copilot"        
-      ]
-    }
-  },
-  "secrets": {
-        "USER_CODESPACE_CEIDG_JWT": {
-            "description": "CEIDG JWT secret for authentication.",
+		],
+		"vscode": {
+			"extensions": [
+				"vscjava.vscode-java-pack",
+				"pivotal.vscode-spring-boot",
+				"redhat.vscode-yaml",
+				"vmware.vscode-boot-dev-pack",
+				"openai.chatgpt",
+				"GitHub.copilot-chat",
+				"GitHub.copilot"
+			]
+		}
+	},
+	"secrets": {
+		"USER_CODESPACE_CEIDG_JWT": {
+			"description": "CEIDG JWT secret for authentication.",
 			"documentationUrl": "https://docs.github.com/en/codespaces/managing-your-codespaces/managing-encrypted-secrets-for-your-codespaces"
 		}
-	},	
-  "postCreateCommand": [
-	"sudo chown -R vscode:vscode /workspace"
-  ]
+	},
+	"postCreateCommand": [
+		"sudo chown -R vscode:vscode /workspace"
+	]
 }

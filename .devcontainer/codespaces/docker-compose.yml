@@ -1,5 +1,5 @@
 services:
-  codespaces-CEIDG:
+  codespaces-ceidg:
     build: 
       context: .
       dockerfile: Dockerfile
