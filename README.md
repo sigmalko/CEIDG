@@ -9,3 +9,4 @@
 - [Wniosek o dostęp do raportów CEIDG](https://www.biznes.gov.pl/pl/e-uslugi/00_9999_00)
 - [Dokumentacja dla użytkowników Hurtowni Danych](https://akademia.biznes.gov.pl/portal/004281)
 - [Dokumentacja dla integratorów API v3 Hurtowni danych - zawiera specyfikację OpenApi](https://pliki.biznes.gov.pl/akademia/20250320/Dokumentacja_dla_integratorow_API_HD_v3.7z)
+- [Informacje o Hurtowni danych CEIDG i Biznes.gov.pl](https://akademia.biznes.gov.pl/portal/004279/)
