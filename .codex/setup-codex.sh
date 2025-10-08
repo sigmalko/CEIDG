@@ -18,7 +18,6 @@ cat > ~/.m2/settings.xml <<EOF
 EOF
 
 cd ..
-cd ..
 set -e
 if ls *.sh 1> /dev/null 2>&1; then
   chmod +x *.sh
