@@ -1,0 +1,2 @@
+# CEIDG
+Hurtownia danych CEIDG
